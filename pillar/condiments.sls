@@ -1,14 +1,11 @@
 # Dictionary of extra condiments
 condiments:
   # sub-directory for the extra condiment
-  chilly:
+  chilly-oil:
     # where to find the condiment on github
     # needed only if different from the sub-directory name
-    github: mdavezac/CondimentStation
-    # optional tag/branch/revision
-    # see salt.states.git.latest for description
-    branch: blackgarlic
-    rev: blackgarlic
+    github: UCL-RITS/CondimentStation
     # can also be given a full git location
     # git: https://...
-    # and anyother argument to salt.states.git.latest
+    # and anyother argument to salt.states.git.latest, including revision, branch, whether to track,
+    # etc...
