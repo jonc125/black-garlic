@@ -1,3 +1,4 @@
 base:
   '*':
+    - brew-cask
     - vim
