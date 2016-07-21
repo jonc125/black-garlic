@@ -1,7 +1,7 @@
 spack:
   # whether to add stuff ~/.salted/zprofile so spack is loaded automatically
   # spack needs to be loaded one way or another, see spack istelf for help
-  add_to_zprofile: True
+  add_to_zprofile: False
   # a file with the compilers spack can access
   compilers_file: salt://files/spack/compilers.yaml
   # a file with the external spack packages (e.g. cmake installed from brew)
