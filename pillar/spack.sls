@@ -17,3 +17,7 @@ spack:
   default_config_location: site
   # Where do external repos go
   # repo_prefix: {{grains['userhome']}}/.spack_repos
+
+# default compiler suite
+# it should match something a suite in compilers.yaml file
+compiler: clang
