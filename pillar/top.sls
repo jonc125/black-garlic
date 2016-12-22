@@ -6,3 +6,8 @@ base:
     - condiments # other people's condiments
     - spack      # where to install spack
     - funwith    # where to put project data and modules
+    - apps
+    - git_global
+#    - iterm
+#    - python
+   - zsh

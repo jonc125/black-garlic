@@ -1,0 +1,16 @@
+# See https://github.com/zsh-users/antigen/wiki/Cookbook#init-command
+
+antigen use oh-my-zsh
+
+antigen bundles <<EOBUNDLES
+  brew
+  gitfast
+  last-working-dir
+  pip
+  python
+  wd
+EOBUNDLES
+
+# Consider also: celery, Django, fabric, osx, svn-fast-info, git-flow
+
+antigen apply
