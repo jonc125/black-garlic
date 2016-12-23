@@ -4,12 +4,12 @@ cask_apps:
   - mendeley-desktop
   - shiftit
   - virtualbox
+  # - karabiner-elements
   # - zotero
   # - slack
   # - iterm2
   # - google-chrome
   # - dropbox
-  # - karabiner-elements
   # - julia
   # - dash
   # - caffeine
@@ -27,7 +27,7 @@ brew_apps:
   - universal-ctags:
       options: [--HEAD]
       taps: universal-ctags/universal-ctags
-  - llvm:
-      options: ['--with-lldb']
+  #- llvm:
+  #    options: ['--with-lldb']
   # - docker-machine-driver-xhyve
   - docker
