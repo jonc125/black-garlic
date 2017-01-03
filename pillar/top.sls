@@ -8,6 +8,6 @@ base:
     - funwith    # where to put project data and modules
     - apps
     - git_global
-#    - zsh
-#    - iterm
-#    - python
+    - zsh
+    - iterm
+    - python

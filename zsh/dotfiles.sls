@@ -1,6 +1,9 @@
 {% set home = grains['userhome'] %}
 {% set salted = pillar['zsh']['salted'] %}
 
+{{home}}/.cache/zsh:
+  file.directory
+
 {{salted}}:
   file.directory
 

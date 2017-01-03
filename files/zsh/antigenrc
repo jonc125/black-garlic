@@ -9,6 +9,7 @@ antigen bundles <<EOBUNDLES
   pip
   python
   wd
+  nojhan/liquidprompt
 EOBUNDLES
 
 # Consider also: celery, Django, fabric, osx, svn-fast-info, git-flow

@@ -1,16 +1,15 @@
 base:
   '*':
     - condiments
+    - spack
     - brew-cask
     - apps
     - git
     - ssh
     - funwith
-    # - zsh
-    # - spack
+    - zsh
     # - setup_github
-    # - python
-    # - nvim
+    - python
     # - tmux
     # - docker
     # - hg

@@ -5,6 +5,7 @@ python_pkgs:
   - cython
   - pytest
   - virtualenv
+  - virtualenvwrapper
   - matplotlib
   # - matplotlib-venn
   - pandas

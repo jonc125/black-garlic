@@ -38,7 +38,7 @@
   file.managed:
     - makedirs: True
     - contents: |
-        # aliases from zsh:aliases pillar
+        # aliases from zsh:alias pillar
 {%   for (name, cmd) in aliases.items() %}
         alias {{name}}="{{cmd}}"
 {%   endfor %}
