@@ -16,7 +16,9 @@ zsh:
     SAVEHIST: 100000
     TERM: screen-256color
     EVENT_NOKQUEUE: 1 # problem with tmux
+    # zsh & antigen settings
     ZSH_CACHE_DIR: ~/.cache/zsh
+    ZSH: /Users/jonc/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh.git
     # GNU coreutils
     MANPATH: "/usr/local/opt/coreutils/libexec/gnuman:${MANPATH}"
     # Dashboard settings

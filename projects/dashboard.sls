@@ -1,4 +1,4 @@
-Install required brews:
+Install required Dashboard brews:
   pkg.installed:
     - chromedriver
     - libffi

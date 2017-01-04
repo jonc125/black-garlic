@@ -12,8 +12,13 @@
     - source: salt://files/zsh/antigenrc
     - mode: 600
 
+{{home}}/.config/liquidpromptrc:
+  file.managed:
+    - source: salt://files/zsh/liquidpromptrc
+    - mode: 644
+
 {% for filename in ['zprofile', 'zshrc'] %}
-{{grains['userhome']}}/.{{filename}}:
+{{home}}/.{{filename}}:
   file.managed:
     - source: salt://files/zsh/{{filename}}
     - mode: 600

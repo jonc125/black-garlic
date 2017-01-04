@@ -54,3 +54,6 @@ Session.vim
 # python
 .cache/
 *.pyc
+
+# Microsoft office
+~$*.*

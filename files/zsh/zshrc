@@ -3,6 +3,9 @@
 source /usr/local/share/antigen/antigen.zsh
 antigen init {{salted}}/antigenrc
 
+# Prefer case-sensitive matching if possible; try case-insensitive if not
+zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
+
 for filename in {{salted}}/settings/*.zsh; do
   source $filename
 done
