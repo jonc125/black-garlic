@@ -31,6 +31,8 @@ zsh:
     ll: ls -l
     rm: rm -i
     mv: mv -i
+    conda: /Users/jonc/anaconda3/bin/conda
+    conda-activate: source ~/anaconda3/bin/activate
   options:
     - SHARE_HISTORY
     - HIST_FIND_NO_DUPS
