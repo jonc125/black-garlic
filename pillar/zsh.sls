@@ -34,12 +34,12 @@ zsh:
     conda: /Users/jonc/anaconda3/bin/conda
     conda-activate: source ~/anaconda3/bin/activate
   options:
-    - SHARE_HISTORY
     - HIST_FIND_NO_DUPS
     - HIST_IGNORE_SPACE
     - HIST_NO_STORE
     - HIST_SAVE_NO_DUPS
     - HIST_REDUCE_BLANKS
+    - INC_APPEND_HISTORY
   settings:
     - completions: |
         fpath=({{salted}}/completions $fpath)
