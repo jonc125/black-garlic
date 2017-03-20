@@ -1,7 +1,15 @@
 
 # zsh plugins installed with https://github.com/zsh-users/antigen
-source /usr/local/share/antigen/antigen.zsh
-antigen init {{salted}}/antigenrc
+if [[ -f ${ADOT:-$HOME/.antigen}/.cache/.zcache-payload ]]; then
+    # Bundles need compinit set up
+    autoload -Uz compinit
+    compinit -d ${HOME}/.zcompdump
+    # Load bundles statically
+    source ${ADOT:-$HOME/.antigen}/.cache/.zcache-payload
+else
+    source /usr/local/share/antigen/antigen.zsh
+    antigen init {{salted}}/antigenrc
+fi
 
 # Prefer case-sensitive matching if possible; try case-insensitive if not
 zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'

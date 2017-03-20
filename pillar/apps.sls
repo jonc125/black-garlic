@@ -4,6 +4,7 @@ cask_apps:
   - mendeley-desktop
   - shiftit
   - virtualbox
+  - vagrant
   # - karabiner-elements
   # - zotero
   # - slack
