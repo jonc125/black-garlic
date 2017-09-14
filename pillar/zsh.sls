@@ -24,7 +24,7 @@ zsh:
     # Dashboard settings
     ORACLE_HOME: /opt/oracle/instantclient_12_1
     # PATH includes coreutils & Dashboard
-    PATH: "/usr/local/opt/coreutils/libexec/gnubin:${ORACLE_HOME}:${PATH}"
+    PATH: "${HOME}/anaconda3/bin:/usr/local/opt/coreutils/libexec/gnubin:${ORACLE_HOME}:${PATH}"
   alias:
     ls: ls --color=auto
     la: ls -A
